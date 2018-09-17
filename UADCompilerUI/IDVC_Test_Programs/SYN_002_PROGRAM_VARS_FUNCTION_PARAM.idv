@@ -1,0 +1,16 @@
+var a,b[3],c:int;
+var x,z,y:float;
+
+function a() : int
+{
+  var hola : string;
+}
+
+function hola(i,j : bool) : bool
+{
+}
+
+main()
+{
+  var a, hola : float;
+}

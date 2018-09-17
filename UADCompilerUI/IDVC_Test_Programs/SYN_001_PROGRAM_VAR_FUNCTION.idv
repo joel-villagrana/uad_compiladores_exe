@@ -1,0 +1,15 @@
+var a,b[3],c:int;
+var x,  z,  y  :float;
+
+function a() : int
+{
+}
+
+function b(	i,	j	:	bool) : bool
+{
+}
+
+main()
+{
+
+}
