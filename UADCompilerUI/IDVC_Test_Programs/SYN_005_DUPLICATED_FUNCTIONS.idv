@@ -1,0 +1,20 @@
+var a,b[3],c:int;
+
+function function_one() : int
+{
+  return 1;
+}
+
+function function_two() : string
+{
+  return "two";
+}
+
+function function_one(z : float) : float
+{
+  return 1.0;
+}
+
+main()
+{
+}

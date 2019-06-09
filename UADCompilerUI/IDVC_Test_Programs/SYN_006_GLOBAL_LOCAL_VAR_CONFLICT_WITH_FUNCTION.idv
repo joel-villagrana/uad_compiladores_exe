@@ -1,16 +1,23 @@
 var a,b[3],c:int;
 var x,z,y:float;
 
+function a() : int
+{
+  return 0;
+}
+
 function function_one() : int
 {
+  var function_two : string;
   return 0;
 }
 
 function function_two(i,j : bool) : bool
 {
-  return true;
+  return false;
 }
 
 main()
 {
+  var function_one : float;
 }

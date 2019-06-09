@@ -1,0 +1,12 @@
+var a,b[3],c:int;
+var x,z,y:float;
+
+function function_one(i,j: int) : int
+{
+  var i : bool;
+  return 0;
+}
+
+main()
+{
+}

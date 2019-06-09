@@ -1,16 +1,19 @@
 var a,b[3],c:int;
 var x,z,y:float;
 
-function function_one() : int
+function function_one(j : int) : int
 {
+  var a,i : string;
+
   return 0;
 }
 
 function function_two(i,j : bool) : bool
 {
-  return true;
+  return false;
 }
 
 main()
 {
+  var a : float;
 }
