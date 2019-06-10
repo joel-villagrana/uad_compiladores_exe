@@ -1,0 +1,15 @@
+var a,b,c:int;
+
+function function_two(i,j : bool) : bool
+{
+  if((a+b)>c)
+  {
+    return false;
+  }
+
+  return true;
+}
+
+main()
+{
+}
