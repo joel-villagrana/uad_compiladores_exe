@@ -1,0 +1,40 @@
+/* Calculate the factorial of a number */
+function factorial(num:int) : int
+{
+  if(num <= 1)
+  {
+    return 1;
+  }
+
+  return (num * factorial(num-1));
+}
+
+/* Print the factorial of numbers from 1 to num */
+function print_factorial(num:int) : void
+{
+  var i : int;
+
+  if(num > 0 && num <= 100)
+  {
+    print("The factorial numbers from 1 to ", num, " are:");
+
+    for(i = 1; (i <= num); inc 1)
+    {
+      print("Factorial of ", i, " is: ",factorial(i));
+    }      
+  }
+}
+
+/* */
+main()
+{
+  var num : int;
+  num = 0;
+
+  print("Enter a number in the range 1..100: ");
+  while(num < 1 || num > 100)
+  {  
+    read(num);  
+  }
+  print_factorial(num);   
+}
