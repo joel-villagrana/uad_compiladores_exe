@@ -1,0 +1,13 @@
+main()
+{
+  var a:int;
+
+  read(a);
+  
+  switch(a)
+  {
+     case 1: { print("1"); }
+     case 2: { print("2"); }
+     default: { print("Value of a is: ", a); }
+  }
+}

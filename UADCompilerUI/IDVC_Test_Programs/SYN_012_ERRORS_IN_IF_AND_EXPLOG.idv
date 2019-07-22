@@ -1,0 +1,29 @@
+function emptyExpLog():void
+{
+  return ((((()))));
+}
+
+main()
+{
+  var a,b,c:int;
+
+  /* Missing token is part of EXP_LOG */
+  if(a>)
+  {
+  }
+
+  /* Missing token is part of IF */
+  if(a>b
+  {
+  }
+
+  /* Extra token is part of IF */
+  if x (a>b)
+  {
+  }
+
+  /* Extra token is part of EXP_LOG */
+  if(a >> b)
+  {
+  }
+}
