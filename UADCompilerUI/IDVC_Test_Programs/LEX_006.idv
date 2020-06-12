@@ -1,0 +1,15 @@
+a --9    /* ID, OP ARIT, INT (-9)                           */
+a--9     /* ID, DECREMENT, INT (9)                          */
+a---9    /* ID, DECREMENT, INT (-9)                         */
+a-9      /* ID, OP ARIT, INT (9)                            */
+a-- -9   /* ID, DECREMENT, INT (-9)                         */
+a-- - -9 /* ID, DECREMENT, OP ARIT, INT (-9)                */
+a-+ ++9  /* ID, OP ARIT, OP ARIT, OP ARIT, OP ARIT, INT (9) */
+--a--9   /* OP ARIT, OP ARIT, ID, DECREMENT, INT (9)        */
+a++-9    /* ID, INCREMENT, INT (-9)                         */
+5-9      /* INT, OP ARIT, INT (9)                           */
+5 - 9    /* INT, OP ARIT, INT                               */
+5 -9     /* INT, INT                                        */
+5 --9    /* INT, OP ARIT, INT (-9)                          */
+-9       /* INT (-9)                                        */
+-9--9    /* INT (-9), OP ARIT, INT (-9)                     */
