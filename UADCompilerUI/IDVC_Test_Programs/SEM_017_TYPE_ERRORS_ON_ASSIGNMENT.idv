@@ -1,0 +1,29 @@
+var x : int;
+var y : float;
+
+function f1(x : string; y[3] : char; z : bool) : int
+{
+	x = "abc";
+	y[0] = 1.0;
+	f2(z);
+	
+	return 0;
+}
+
+function f2(x : bool) : void
+{
+    y = x;
+	x = !x;
+	
+	return;
+}
+
+main()
+{
+    var x : string;
+	var z[3] : float;
+	z[0] = x;
+	z[1] = y;
+	z[2] = z[0];
+    x = f1("xyz", z, false);
+}

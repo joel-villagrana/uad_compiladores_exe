@@ -1,0 +1,36 @@
+var w,x,y,z : int;
+
+function f1() : void
+{
+	while(w - ( x / ( y * (z ^ z))))
+	{
+	    f2(w, y);
+		z = 10 - y;
+		x = -x + z;
+	}
+	
+	while(!f2(x, y) && (x < y) && w)
+	{
+	    x = -x + z;
+	}
+	
+	return;
+}
+
+function f2(a,b : int) : string
+{
+    if (a && b)
+	{
+	    return "1";
+	}
+	
+	return "2";
+}
+
+main()
+{
+    w = 1;
+	x = 2;
+	y = 3;
+	z = 4;
+}
